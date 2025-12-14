@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shuklaji.org/sitemap.xml
