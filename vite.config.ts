@@ -10,8 +10,7 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [react()],
     define: {
-      // Injects the API key from Vercel environment variables into the client bundle
-      'process.env.API_KEY': JSON.stringify(env.API_KEY),
-    },
+  __GEMINI_API_KEY__: JSON.stringify(env.GEMINI_API_KEY)
+}
   };
 });
