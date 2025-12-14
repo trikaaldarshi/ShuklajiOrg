@@ -18,7 +18,7 @@ export const Ask: React.FC = () => {
     setResponse(null);
 
     try {
-      const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+      const ai = new GoogleGenerativeAI(process.env.API_KEY as string);
       const result = await ai.models.generateContent({
         model: 'gemini-3-pro-preview',
         contents: prompt,
