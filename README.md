@@ -1,20 +1,58 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+## 💡 Shuklaji.org - Official Knowledge Hub
 
-# Run and deploy your AI Studio app
+### The official knowledge and community website of Shuklaji. Focused on UPSC preparation, technology, crypto markets, and long-form thinking.
 
-This contains everything you need to run your app locally.
+This repository hosts the front-end application for **Shuklaji.org**, built using **React, TypeScript, and Vite** with a modern **Tailwind CSS** styling utility. The application is a high-performance, knowledge-delivery platform.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1pu2zIOuUgTnkUKwbVt_TYk9sPUANWDK9
+---
 
-## Run Locally
+## ✨ Key Features
 
-**Prerequisites:**  Node.js
+* **Modern Stack:** Built on a performant and developer-friendly stack: React 18, TypeScript, and Vite.
+* **Structured Content:** Clear separation of concerns with defined types for data structures, including `BlogPost` and `ResourceItem`.
+* **Authority Styling:** Custom typography (`DM Serif Display`, `Playfair Display`, `Inter`) and a tailored color palette for a professional, knowledge-focused aesthetic.
+* **Long-Form Support:** Uses the `marked` library for efficient rendering of long-form content, such as blog posts.
+* **Fast Development:** Configured with **Vite** for rapid development, HMR, and optimized production builds.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Technology Stack
+
+| Category | Technology | Purpose |
+| :--- | :--- | :--- |
+| **Framework** | React 18 (with `react-router-dom`) | Component-based UI and routing. |
+| **Build Tool** | Vite | Fast development server and bundle optimization. |
+| **Language** | TypeScript | Type safety and improved developer experience. |
+| **Styling** | Tailwind CSS | Utility-first CSS framework for rapid, consistent styling. |
+| **Markdown** | `marked` | Rendering long-form blog content from Markdown to HTML. |
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to set up and run the project locally.
+
+### Prerequisites
+
+* **Node.js** (LTS version recommended)
+* **Git**
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [YOUR_REPO_URL]
+    cd shuklaji-web
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+### Running Locally
+
+Execute the development script:
+
+```bash
+npm run dev
