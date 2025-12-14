@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { SEO } from '../components/SEO';
-import { GoogleGenAI } from "@google/genai";
+import { GoogleGenerativeAI } from "@google/generative-ai";
 import { marked } from "marked";
 
 export const Ask: React.FC = () => {
